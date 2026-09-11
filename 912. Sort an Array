@@ -36,4 +36,4 @@ class Solution {
             array[writeInd++] = rightPart[p2++];
         }
     }
-}
+
