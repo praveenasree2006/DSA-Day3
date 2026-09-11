@@ -33,7 +33,6 @@ class Solution {
         while (p1 < n1) {
             array[writeInd++] = leftPart[p1++];
         }
-
         while (p2 < n2) {
             array[writeInd++] = rightPart[p2++];
         }
