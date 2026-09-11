@@ -3,7 +3,6 @@ class Solution {
         mergeSort(nums, 0, nums.length - 1);
         return nums;
     }
-
     private void mergeSort(int[] array, int low, int high) {
         if (low >= high) {
             return;
