@@ -18,9 +18,7 @@ class Solution {
                 result.add(arr1[i]);
             }
         }
-        
        
         return result.stream().mapToInt(Integer::intValue).toArray();
-
     }
 }
