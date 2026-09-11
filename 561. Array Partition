@@ -6,6 +6,5 @@ class Solution {
             sum+=Math.min(nums[i],nums[i+1]);
         }
         return sum;
-        
     }
 }
