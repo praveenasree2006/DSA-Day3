@@ -12,7 +12,6 @@ class Solution {
         mergeSort(array, mid + 1, high);
         merge(array, low, mid, high);
     }
-
     private void merge(int[] array, int low, int mid, int high) {
         int n1 = mid - low + 1;
         int n2 = high - mid;
